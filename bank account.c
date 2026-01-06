@@ -44,7 +44,7 @@ do{
     
     if(choice==1)
 	{
-    	if(account_is_active=1)
+    	if(account_is_active==1)
 		printf("there is an account");
     	else
 		{
@@ -54,7 +54,7 @@ do{
         scanf("%d",&lastname);
         printf("enter the balance:");
         scanf("%lf",&balance);
-		account_is_active=1;
+		account_is_active==1;
 		printf("account created");
 		}
 		transactionscount=0;
@@ -62,7 +62,7 @@ do{
 	}
 	    if(choice==2)
 		{
-			if(account_is_active=1)
+			if(account_is_active==1)
 			{
 	    	double deposit_amount;
 	    	printf("enter the deposit_amount:");
@@ -92,7 +92,7 @@ do{
 	    }
 		    if(choice==3)
 			{
-				if(account_is_active=1)
+				if(account_is_active==1)
 				{
 		    	    double withdrawal_amount;
 		    	    printf("enter the withdrawal_amount:");
